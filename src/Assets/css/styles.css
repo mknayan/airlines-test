@@ -1,0 +1,47 @@
+.form-group label{
+    display: block;
+    font-weight: bold;
+}
+.btn_search{
+    width: 100%;
+    background-color: green;
+    border-color: green;
+}
+.site-header{
+    border: 1px dashed #ccc;
+    margin-bottom: 15px;
+    height: 110px;
+}
+.site-header img{
+    width: 110px;
+}
+.header_section{
+    text-align: center;
+    padding-top: 37px;
+}
+.site-footer{
+    border: 1px dashed #ccc;
+    margin-top: 15px;
+    height: 110px;
+    text-align: center;
+    padding-top: 37px;
+}
+
+input.code_input { 
+    text-transform: uppercase;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
+}
+::placeholder { /* Recent browsers */
+    text-transform: none;
+}
